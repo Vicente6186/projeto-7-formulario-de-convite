@@ -1,0 +1,25 @@
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 0.75rem;
+    background-color: var(--brand-dark);
+    border-radius: .5rem;
+    color: white;
+    border: none;
+    font: var(--text-body-sm);
+
+    img { width: 1.25rem; height: 1.25rem; }
+}
+
+.btn-secondary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 0.75rem;
+    background-color: var(--shape-button);
+    border-radius: .5rem;
+    color: white;
+    border: none;
+    font: var(--text-body-sm);
+}
