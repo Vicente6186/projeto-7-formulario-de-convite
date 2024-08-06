@@ -29,9 +29,7 @@ input, textarea{
     }
 }
 
-.error-container{
-   
-    
+.error-container{ 
     .error-message {
         display: none;
         margin-top: 0.25rem;
