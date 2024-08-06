@@ -29,5 +29,28 @@ input, textarea{
     }
 }
 
+.error-container{
+   
+    
+    .error-message {
+        display: none;
+        margin-top: 0.25rem;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--danger);
+    }
+
+    &:has(:invalid){
+        .error-input{
+            border: .0625rem solid var(--danger);
+        }
+
+        .error-message { display: flex; }
+    }
+}
+
+
+
+
 
 

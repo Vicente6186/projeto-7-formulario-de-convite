@@ -232,9 +232,10 @@
                     <fieldset id="contact">
                         <legend><img src="assets/icons/contact.svg" alt=""> Dados para contato</legend> 
                         
-                        <div class="input-wrapper">
+                        <div class="input-wrapper error-container">
                             <label for="name">Nome</label>
-                            <input type="text" name="name" id="name" placeholder="Nome completo">
+                            <input class="error-input" type="text" name="name" id="name" placeholder="Nome completo" required>
+                            <span class="error-message"><img src="assets/icons/circle-alert.svg"> Campo obrigatório</span>
                         </div>
                         
                         <div class="input-wrapper">
